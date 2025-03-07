@@ -85,6 +85,7 @@ The final trained model was saved in an HDF5 file:
 model.save("trained_model.h5")
 
 ---
+
 ## Attribution and Code Sources
 This project was developed as part of a bootcamp program. **Class materials, documentation, and external resources** were used to complete this challenge. The dataset and methodologies integrate:
 
