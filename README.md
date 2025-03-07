@@ -83,3 +83,13 @@ A more complex model, such as a convolutional neural network (CNN) or a recurren
 The final trained model was saved in an HDF5 file:
 ```python
 model.save("trained_model.h5")
+
+---
+## Attribution and Code Sources
+This project was developed as part of a bootcamp program. **Class materials, documentation, and external resources** were used to complete this challenge. The dataset and methodologies integrate:
+
+- **Neural network modeling using TensorFlow and Keras**
+- **Data preprocessing using Pandas and NumPy**
+- **Feature scaling using Scikit-Learn’s StandardScaler**
+- **Dimensionality reduction using PCA from Scikit-Learn**
+- **Model evaluation using Scikit-Learn metrics (Accuracy, Loss Evaluation)**
