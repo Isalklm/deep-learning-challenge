@@ -72,6 +72,13 @@ After training the initial model, five different optimization approaches were te
 
 ---
 
+## Summary
+Overall, the deep learning model was able to predict funding success with an accuracy of approximately 72.6%. Various optimization methods were tested, including adding layers, changing activation functions, using Leaky ReLU, adjusting input features, and applying PCA. However, none of these trials significantly improved accuracy beyond the initial model.
+
+A more complex model, such as a convolutional neural network (CNN) or a recurrent neural network (RNN), may be necessary to capture deeper patterns in the data. Additionally, feature engineering and hyperparameter tuning could further enhance performance. Future improvements should focus on obtaining a better dataset, refining feature selection, and testing different neural network architectures.
+
+---
+
 ## Model Saving
 The final trained model was saved in an HDF5 file:
 ```python
